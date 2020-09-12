@@ -14,6 +14,6 @@ struct MainScreen {
     
     func screenController() -> UIViewController {
         let urlRelativa = "/onboarding"
-        return BeagleScreenViewController(.remote(.init(url: urlRelativa)))
+        return BeagleScreenViewController(Text("texto"))
     }
 }

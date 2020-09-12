@@ -9,5 +9,9 @@
 import Foundation
 
 extension String {
-    
+    static var darkSienna = "#461220"
+    static var redViolet = "#8C2F39"
+    static var redEnglsh = "#B23A48"
+    static var melon = "#FCB9B2"
+    static var apricot = "#FED0BB"
 }

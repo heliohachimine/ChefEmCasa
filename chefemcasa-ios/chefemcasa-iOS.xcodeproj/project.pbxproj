@@ -16,7 +16,7 @@
 		6E3B6C61250D847600361995 /* DeeplinkScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C60250D847600361995 /* DeeplinkScreenManager.swift */; };
 		6E3B6C64250D851000361995 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C63250D851000361995 /* AppTheme.swift */; };
 		6E3B6C67250D85C100361995 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C66250D85C100361995 /* FirstScreen.swift */; };
-		6E3B6C6A250D883400361995 /* ContantsEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C69250D883400361995 /* ContantsEndPoints.swift */; };
+		6E3B6C6A250D883400361995 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C69250D883400361995 /* Contants.swift */; };
 		BCE1DAE61D946BB9115C6890 /* Pods_chefemcasa_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C12F52E0D911EAC84963F9 /* Pods_chefemcasa_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		6E3B6C60250D847600361995 /* DeeplinkScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkScreenManager.swift; sourceTree = "<group>"; };
 		6E3B6C63250D851000361995 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		6E3B6C66250D85C100361995 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
-		6E3B6C69250D883400361995 /* ContantsEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContantsEndPoints.swift; sourceTree = "<group>"; };
+		6E3B6C69250D883400361995 /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
 		BD256528D98DDF53FD5E3F00 /* Pods-chefemcasa-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chefemcasa-iOS.release.xcconfig"; path = "Target Support Files/Pods-chefemcasa-iOS/Pods-chefemcasa-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		F48F25C05717F0A8EA46C17A /* Pods-chefemcasa-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chefemcasa-iOS.debug.xcconfig"; path = "Target Support Files/Pods-chefemcasa-iOS/Pods-chefemcasa-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,7 +113,7 @@
 		6E3B6C68250D87F700361995 /* Contants */ = {
 			isa = PBXGroup;
 			children = (
-				6E3B6C69250D883400361995 /* ContantsEndPoints.swift */,
+				6E3B6C69250D883400361995 /* Contants.swift */,
 			);
 			path = Contants;
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3B6C6A250D883400361995 /* ContantsEndPoints.swift in Sources */,
+				6E3B6C6A250D883400361995 /* Contants.swift in Sources */,
 				6E3B6C67250D85C100361995 /* FirstScreen.swift in Sources */,
 				6E3B6C4E250D820F00361995 /* ViewController.swift in Sources */,
 				6E3B6C4A250D820F00361995 /* AppDelegate.swift in Sources */,
