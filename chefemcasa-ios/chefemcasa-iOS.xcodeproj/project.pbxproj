@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E3B6C4A250D820F00361995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C49250D820F00361995 /* AppDelegate.swift */; };
+		6E3B6C4C250D820F00361995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C4B250D820F00361995 /* SceneDelegate.swift */; };
+		6E3B6C4E250D820F00361995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C4D250D820F00361995 /* ViewController.swift */; };
+		6E3B6C51250D820F00361995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B6C4F250D820F00361995 /* Main.storyboard */; };
+		6E3B6C53250D821400361995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B6C52250D821400361995 /* Assets.xcassets */; };
+		6E3B6C56250D821400361995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B6C54250D821400361995 /* LaunchScreen.storyboard */; };
+		6E3B6C5F250D83E900361995 /* BeagleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C5E250D83E900361995 /* BeagleConfig.swift */; };
+		6E3B6C61250D847600361995 /* DeeplinkScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C60250D847600361995 /* DeeplinkScreenManager.swift */; };
+		6E3B6C64250D851000361995 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C63250D851000361995 /* AppTheme.swift */; };
+		6E3B6C67250D85C100361995 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C66250D85C100361995 /* FirstScreen.swift */; };
+		6E3B6C6A250D883400361995 /* ContantsEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C69250D883400361995 /* ContantsEndPoints.swift */; };
+		BCE1DAE61D946BB9115C6890 /* Pods_chefemcasa_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C12F52E0D911EAC84963F9 /* Pods_chefemcasa_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10C12F52E0D911EAC84963F9 /* Pods_chefemcasa_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chefemcasa_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3B6C46250D820F00361995 /* Chef em Casa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chef em Casa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3B6C49250D820F00361995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E3B6C4B250D820F00361995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E3B6C4D250D820F00361995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E3B6C50250D820F00361995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E3B6C52250D821400361995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E3B6C55250D821400361995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E3B6C57250D821400361995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3B6C5E250D83E900361995 /* BeagleConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeagleConfig.swift; sourceTree = "<group>"; };
+		6E3B6C60250D847600361995 /* DeeplinkScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkScreenManager.swift; sourceTree = "<group>"; };
+		6E3B6C63250D851000361995 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		6E3B6C66250D85C100361995 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		6E3B6C69250D883400361995 /* ContantsEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContantsEndPoints.swift; sourceTree = "<group>"; };
+		BD256528D98DDF53FD5E3F00 /* Pods-chefemcasa-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chefemcasa-iOS.release.xcconfig"; path = "Target Support Files/Pods-chefemcasa-iOS/Pods-chefemcasa-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F48F25C05717F0A8EA46C17A /* Pods-chefemcasa-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chefemcasa-iOS.debug.xcconfig"; path = "Target Support Files/Pods-chefemcasa-iOS/Pods-chefemcasa-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E3B6C43250D820E00361995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE1DAE61D946BB9115C6890 /* Pods_chefemcasa_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E3B6C3D250D820E00361995 = {
+			isa = PBXGroup;
+			children = (
+				6E3B6C48250D820F00361995 /* chefemcasa-iOS */,
+				6E3B6C47250D820F00361995 /* Products */,
+				917B554CC245CC981ED150A5 /* Pods */,
+				7282664B83DD3BE926F4A559 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E3B6C47250D820F00361995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E3B6C46250D820F00361995 /* Chef em Casa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3B6C48250D820F00361995 /* chefemcasa-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E3B6C68250D87F700361995 /* Contants */,
+				6E3B6C65250D857D00361995 /* Screens */,
+				6E3B6C62250D84A800361995 /* DesignerSystem */,
+				6E3B6C5D250D83C100361995 /* BeagleConfig */,
+				6E3B6C49250D820F00361995 /* AppDelegate.swift */,
+				6E3B6C4B250D820F00361995 /* SceneDelegate.swift */,
+				6E3B6C4D250D820F00361995 /* ViewController.swift */,
+				6E3B6C4F250D820F00361995 /* Main.storyboard */,
+				6E3B6C52250D821400361995 /* Assets.xcassets */,
+				6E3B6C54250D821400361995 /* LaunchScreen.storyboard */,
+				6E3B6C57250D821400361995 /* Info.plist */,
+			);
+			path = "chefemcasa-iOS";
+			sourceTree = "<group>";
+		};
+		6E3B6C5D250D83C100361995 /* BeagleConfig */ = {
+			isa = PBXGroup;
+			children = (
+				6E3B6C5E250D83E900361995 /* BeagleConfig.swift */,
+				6E3B6C60250D847600361995 /* DeeplinkScreenManager.swift */,
+			);
+			path = BeagleConfig;
+			sourceTree = "<group>";
+		};
+		6E3B6C62250D84A800361995 /* DesignerSystem */ = {
+			isa = PBXGroup;
+			children = (
+				6E3B6C63250D851000361995 /* AppTheme.swift */,
+			);
+			path = DesignerSystem;
+			sourceTree = "<group>";
+		};
+		6E3B6C65250D857D00361995 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6E3B6C66250D85C100361995 /* FirstScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6E3B6C68250D87F700361995 /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				6E3B6C69250D883400361995 /* ContantsEndPoints.swift */,
+			);
+			path = Contants;
+			sourceTree = "<group>";
+		};
+		7282664B83DD3BE926F4A559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C12F52E0D911EAC84963F9 /* Pods_chefemcasa_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		917B554CC245CC981ED150A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F48F25C05717F0A8EA46C17A /* Pods-chefemcasa-iOS.debug.xcconfig */,
+				BD256528D98DDF53FD5E3F00 /* Pods-chefemcasa-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E3B6C45250D820E00361995 /* chefemcasa-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3B6C5A250D821400361995 /* Build configuration list for PBXNativeTarget "chefemcasa-iOS" */;
+			buildPhases = (
+				4EE29F81DB04F3B8458FFF65 /* [CP] Check Pods Manifest.lock */,
+				6E3B6C42250D820E00361995 /* Sources */,
+				6E3B6C43250D820E00361995 /* Frameworks */,
+				6E3B6C44250D820E00361995 /* Resources */,
+				F4A929B69A827856AF0DAF2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chefemcasa-iOS";
+			productName = "chefemcasa-iOS";
+			productReference = 6E3B6C46250D820F00361995 /* Chef em Casa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E3B6C3E250D820E00361995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Luis Gustavo Oliveira Silva";
+				TargetAttributes = {
+					6E3B6C45250D820E00361995 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 6E3B6C41250D820E00361995 /* Build configuration list for PBXProject "chefemcasa-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E3B6C3D250D820E00361995;
+			productRefGroup = 6E3B6C47250D820F00361995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E3B6C45250D820E00361995 /* chefemcasa-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E3B6C44250D820E00361995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3B6C56250D821400361995 /* LaunchScreen.storyboard in Resources */,
+				6E3B6C53250D821400361995 /* Assets.xcassets in Resources */,
+				6E3B6C51250D820F00361995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EE29F81DB04F3B8458FFF65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chefemcasa-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A929B69A827856AF0DAF2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chefemcasa-iOS/Pods-chefemcasa-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chefemcasa-iOS/Pods-chefemcasa-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chefemcasa-iOS/Pods-chefemcasa-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E3B6C42250D820E00361995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3B6C6A250D883400361995 /* ContantsEndPoints.swift in Sources */,
+				6E3B6C67250D85C100361995 /* FirstScreen.swift in Sources */,
+				6E3B6C4E250D820F00361995 /* ViewController.swift in Sources */,
+				6E3B6C4A250D820F00361995 /* AppDelegate.swift in Sources */,
+				6E3B6C4C250D820F00361995 /* SceneDelegate.swift in Sources */,
+				6E3B6C64250D851000361995 /* AppTheme.swift in Sources */,
+				6E3B6C5F250D83E900361995 /* BeagleConfig.swift in Sources */,
+				6E3B6C61250D847600361995 /* DeeplinkScreenManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E3B6C4F250D820F00361995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3B6C50250D820F00361995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E3B6C54250D821400361995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3B6C55250D821400361995 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E3B6C58250D821400361995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E3B6C59250D821400361995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E3B6C5B250D821400361995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48F25C05717F0A8EA46C17A /* Pods-chefemcasa-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3NJNNLNCS;
+				INFOPLIST_FILE = "chefemcasa-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Luis.chefemcasa-iOS";
+				PRODUCT_NAME = "Chef em Casa";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E3B6C5C250D821400361995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD256528D98DDF53FD5E3F00 /* Pods-chefemcasa-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3NJNNLNCS;
+				INFOPLIST_FILE = "chefemcasa-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Luis.chefemcasa-iOS";
+				PRODUCT_NAME = "Chef em Casa";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E3B6C41250D820E00361995 /* Build configuration list for PBXProject "chefemcasa-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3B6C58250D821400361995 /* Debug */,
+				6E3B6C59250D821400361995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3B6C5A250D821400361995 /* Build configuration list for PBXNativeTarget "chefemcasa-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3B6C5B250D821400361995 /* Debug */,
+				6E3B6C5C250D821400361995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E3B6C3E250D820E00361995 /* Project object */;
+}
