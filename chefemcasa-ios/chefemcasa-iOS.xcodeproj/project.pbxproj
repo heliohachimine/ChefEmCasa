@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6E3B6C4A250D820F00361995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C49250D820F00361995 /* AppDelegate.swift */; };
-		6E3B6C4C250D820F00361995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C4B250D820F00361995 /* SceneDelegate.swift */; };
 		6E3B6C4E250D820F00361995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B6C4D250D820F00361995 /* ViewController.swift */; };
 		6E3B6C51250D820F00361995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B6C4F250D820F00361995 /* Main.storyboard */; };
 		6E3B6C53250D821400361995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B6C52250D821400361995 /* Assets.xcassets */; };
@@ -25,7 +24,6 @@
 		10C12F52E0D911EAC84963F9 /* Pods_chefemcasa_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chefemcasa_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3B6C46250D820F00361995 /* Chef em Casa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chef em Casa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3B6C49250D820F00361995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E3B6C4B250D820F00361995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6E3B6C4D250D820F00361995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E3B6C50250D820F00361995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E3B6C52250D821400361995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 				6E3B6C62250D84A800361995 /* DesignerSystem */,
 				6E3B6C5D250D83C100361995 /* BeagleConfig */,
 				6E3B6C49250D820F00361995 /* AppDelegate.swift */,
-				6E3B6C4B250D820F00361995 /* SceneDelegate.swift */,
 				6E3B6C4D250D820F00361995 /* ViewController.swift */,
 				6E3B6C4F250D820F00361995 /* Main.storyboard */,
 				6E3B6C52250D821400361995 /* Assets.xcassets */,
@@ -257,7 +254,6 @@
 				6E3B6C67250D85C100361995 /* FirstScreen.swift in Sources */,
 				6E3B6C4E250D820F00361995 /* ViewController.swift in Sources */,
 				6E3B6C4A250D820F00361995 /* AppDelegate.swift in Sources */,
-				6E3B6C4C250D820F00361995 /* SceneDelegate.swift in Sources */,
 				6E3B6C64250D851000361995 /* AppTheme.swift in Sources */,
 				6E3B6C5F250D83E900361995 /* BeagleConfig.swift in Sources */,
 				6E3B6C61250D847600361995 /* DeeplinkScreenManager.swift in Sources */,
@@ -336,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -390,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -406,7 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D3NJNNLNCS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "chefemcasa-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -425,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D3NJNNLNCS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "chefemcasa-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
