@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Chef em Casa</string>
+    <string name="title_btn_retry">Tente Novamente</string>
+</resources>
