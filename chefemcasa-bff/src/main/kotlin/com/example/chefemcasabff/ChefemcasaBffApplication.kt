@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class ChefemcasaBffApplication
 
 fun main(args: Array<String>) {
-	runApplication<ChefemcasaBffApplication>(*args)
+    runApplication<ChefemcasaBffApplication>(*args)
 }

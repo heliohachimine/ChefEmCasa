@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service
 @Service
 class HomeService {
 
-    fun getHomeScreen() = HomeBuilder
+    fun getHomeScreen() = HomeBuilder()
 
 }

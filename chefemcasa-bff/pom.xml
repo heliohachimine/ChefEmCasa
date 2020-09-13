@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -10,21 +10,15 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>chefemcasa-bff</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>chefemcasa-bff</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>
-		<kotlin.version>1.3.72</kotlin.version>
+		<kotlin.version>1.4.10</kotlin.version>
+		<beagle.version>1.2.0</beagle.version>
 	</properties>
-
-	<repositories>
-		<repository>
-			<id>bintray-zupit-repo</id>
-			<url>https://dl.bintray.com/zupit/repo</url>
-		</repository>
-	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -43,7 +37,7 @@
 		<dependency>
 			<groupId>br.com.zup.beagle</groupId>
 			<artifactId>beagle-spring-starter</artifactId>
-			<version>1.2.0</version>
+			<version>${beagle.version}</version>
 		</dependency>
 
 		<dependency>

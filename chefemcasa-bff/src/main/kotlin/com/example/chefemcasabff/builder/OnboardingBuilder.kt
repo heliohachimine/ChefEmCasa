@@ -78,9 +78,4 @@ class OnboardingBuilder: ScreenBuilder {
             unselectedColor = DARK_SIENNA,
             currentPage = expressionOf("@{numberPage}")
     )
-
-
-
-
-
 }
