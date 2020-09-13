@@ -1,3 +1,1 @@
-build: mvn -f /chefemcasa-bff clean install
-
-web: mvn spring-boot:run
+web: mvn -f /chefemcasa-bff spring-boot:run
