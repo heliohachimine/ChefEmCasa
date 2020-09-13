@@ -12,5 +12,4 @@ class HomeController(
 
     @GetMapping("/home")
     fun getHomeScreen() = this.homeService.getHomeScreen()
-
 }

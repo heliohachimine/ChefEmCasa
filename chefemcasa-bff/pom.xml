@@ -18,9 +18,16 @@
 		<java.version>11</java.version>
 		<kotlin.version>1.4.10</kotlin.version>
 		<beagle.version>1.2.0</beagle.version>
+		<app.version>0.0.1</app.version>
+		<app.name>Chefe Em Casa BFF</app.name>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.2.32</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
