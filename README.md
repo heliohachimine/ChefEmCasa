@@ -41,7 +41,7 @@ Agora, você pode abrir o `chefemcasa-iOS.xcworkspace`
 
 ## ❤️ Contato
 
-- <a href="bit.ly/chefemcasaapp">Site Oficial</a>
+- <a href="https://bit.ly/chefemcasaapp">Site Oficial</a>
 - <a href="https://www.instagram.com/chefemcasa.app">Instagram</a>
 - <a href="https://bit.ly/35wTWbM">YouTube</a>
 
